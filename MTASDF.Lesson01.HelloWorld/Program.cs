@@ -8,7 +8,28 @@ namespace MTASDF.Lesson01.HelloWorld
         {
             //BasicHelloWorldCode();
 
-            ArrayExample();
+            //ArrayExample();
+
+            RecapTask();
+        }
+
+        private static void RecapTask()
+        {
+            string[] horseParts =
+            {
+                "Poll",
+                "Crest",
+                "Back",
+                "Dock",
+                "Fetlock"
+            };
+
+            Console.WriteLine("Parts of horse");
+            Console.WriteLine(horseParts[0]);
+            Console.WriteLine(horseParts[1]);
+            Console.WriteLine(horseParts[2]);
+            Console.WriteLine(horseParts[3]);
+            Console.WriteLine(horseParts[4]);
         }
 
         private static void ArrayExample()
