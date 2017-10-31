@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson03.Selection",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson04.Iteration", "MTASDF.Lesson04.Iteration\MTASDF.Lesson04.Iteration.csproj", "{63A88B2A-67CC-4BDE-8E80-D3A834513BCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson05.RecusionAndExceptions", "MTASDF.Lesson05.RecusionAndExceptions\MTASDF.Lesson05.RecusionAndExceptions.csproj", "{8FC3437B-9F52-418E-A3D6-13827F84C2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson07.IntroductionToOOP", "MTASDF.Lesson07.IntroductionToOOP\MTASDF.Lesson07.IntroductionToOOP.csproj", "{A5347B00-7067-49BA-862B-FDA09137FEF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{63A88B2A-67CC-4BDE-8E80-D3A834513BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A88B2A-67CC-4BDE-8E80-D3A834513BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A88B2A-67CC-4BDE-8E80-D3A834513BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC3437B-9F52-418E-A3D6-13827F84C2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC3437B-9F52-418E-A3D6-13827F84C2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC3437B-9F52-418E-A3D6-13827F84C2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC3437B-9F52-418E-A3D6-13827F84C2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

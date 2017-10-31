@@ -13,7 +13,36 @@ namespace MTASDF.Lesson04.Iteration
             //WhileLoopExample();
             //IssueTickets();
             //DoWhileLoopExample();
-            AddUpTrollyContents();
+            //AddUpTrollyContents();
+            //ForLoopExample();
+            //CountDownFrom10To0();
+            ForEachExample();
+        }
+
+        private static void ForEachExample()
+        {
+            int[] numbers = { 5, 4, 3, 2, 1 };
+
+            foreach (int item in numbers)
+            {
+                Console.WriteLine("item is " + item);
+            }
+        }
+
+        private static void CountDownFrom10To0()
+        {
+            for (int i = 10; i >= 0; i--)
+            {
+                Console.WriteLine("Value of i is {0}", i);
+            }
+        }
+
+        private static void ForLoopExample()
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("The value of i is {0}", i);
+            }
         }
 
         private static void AddUpTrollyContents()
