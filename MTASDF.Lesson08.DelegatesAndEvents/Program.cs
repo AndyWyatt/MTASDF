@@ -12,6 +12,22 @@ namespace MTASDF.Lesson08.DelegatesAndEvents
 
         static void Main(string[] args)
         {
+            //DelegateExampleUseringNewsLetters();
+
+            GearBox gearBox = new GearBox();
+            gearBox.GearChanged += GearBox_GearChanged;
+            gearBox.GetNo++;
+            gearBox.GetNo = 5;
+            gearBox.GetNo--;
+        }
+
+        private static void GearBox_GearChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine($"Gear has changed to - {(sender as GearBox).GetNo}");
+        }
+
+        private static void DelegateExampleUseringNewsLetters()
+        {
             Staff andy = new Staff("Andy");
             Staff jacqui = new Staff("Jacqui");
             Staff neil = new Staff("Neil");
