@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson05.RecusionAnd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson07.IntroductionToOOP", "MTASDF.Lesson07.IntroductionToOOP\MTASDF.Lesson07.IntroductionToOOP.csproj", "{A5347B00-7067-49BA-862B-FDA09137FEF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTASDF.Lesson08.DelegatesAndEvents", "MTASDF.Lesson08.DelegatesAndEvents\MTASDF.Lesson08.DelegatesAndEvents.csproj", "{88A5E0D0-9859-4A2D-BE52-E0070732BA60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5347B00-7067-49BA-862B-FDA09137FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A5E0D0-9859-4A2D-BE52-E0070732BA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A5E0D0-9859-4A2D-BE52-E0070732BA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A5E0D0-9859-4A2D-BE52-E0070732BA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A5E0D0-9859-4A2D-BE52-E0070732BA60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

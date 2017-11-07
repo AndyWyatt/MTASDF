@@ -27,6 +27,7 @@ namespace MTASDF.Lesson07.IntroductionToOOP
                 }
             }
         }
+
         private double weightInKg;
         public double WeightInKg
         {
@@ -42,6 +43,7 @@ namespace MTASDF.Lesson07.IntroductionToOOP
                 }
             }
         }
+
         public double BMI
         {
             get
@@ -49,6 +51,7 @@ namespace MTASDF.Lesson07.IntroductionToOOP
                 return WeightInKg / ((HeightInCm / 100.0) * (HeightInCm / 100.0));
             }
         }
+
         public string BMIDescription
         {
             get
