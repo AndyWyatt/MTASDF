@@ -27,5 +27,14 @@ namespace MTASDF.Lesson08.DelegatesAndEvents
                 }
             }
         }
+
+        public static string GetFullname(string forename, string surname)
+        {
+            string result = string.Empty;
+
+            result = forename + " " + surname;
+
+            return result;
+        }
     }
 }
